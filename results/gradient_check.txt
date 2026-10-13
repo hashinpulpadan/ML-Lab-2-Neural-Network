@@ -1,0 +1,17 @@
+Numerical gradient check (central difference)
+epsilon = 0.0001
+Target: at least 9 of 10 relative errors < 1e-6
+
+W1(43, 9): analytical=-5.9354530977e-05, numerical=-5.9354530180e-05, relative_error=6.713e-09
+W1(58, 3): analytical=-2.0499164999e-05, numerical=-2.0499166808e-05, relative_error=4.414e-08
+W1(11, 5): analytical=0.0000000000e+00, numerical=0.0000000000e+00, relative_error=0.000e+00
+W1(22, 12): analytical=-2.9433227928e-06, numerical=-2.9433233628e-06, relative_error=9.684e-08
+W2(14, 7): analytical=0.0000000000e+00, numerical=0.0000000000e+00, relative_error=0.000e+00
+W1(50, 13): analytical=2.6513903320e-05, numerical=2.6513902185e-05, relative_error=2.141e-08
+W3(14, 0): analytical=-5.3020896911e-06, numerical=-5.3020898783e-06, relative_error=1.765e-08
+W2(4, 3): analytical=0.0000000000e+00, numerical=0.0000000000e+00, relative_error=0.000e+00
+W1(52, 12): analytical=-2.2155882563e-05, numerical=-2.2155886015e-05, relative_error=7.789e-08
+W1(26, 11): analytical=2.2713656095e-06, numerical=2.2713653181e-06, relative_error=6.415e-08
+
+PASS COUNT: 10/10
+OVERALL: PASS

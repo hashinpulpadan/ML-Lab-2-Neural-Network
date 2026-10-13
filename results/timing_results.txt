@@ -1,0 +1,5 @@
+Median timings over 100 runs (batch size 32)
+Forward pass: 0.016563 ms
+Backward pass: 0.019209 ms
+
+The backward pass usually takes longer because it computes gradients for each trainable weight and bias using matrix multiplications; the forward pass computes activations and probabilities. Actual timings depend on hardware and BLAS.
